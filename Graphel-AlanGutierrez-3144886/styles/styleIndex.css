@@ -14,7 +14,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 4px solid #1E86D4;
+	border-bottom: 4px solid #1293D4;
 }
 
 header p {
@@ -25,7 +25,7 @@ header p {
 }
 
 header p span {
-	color: #1E86D4;
+	color: #1293D4;
 }
 
 header nav ul {
@@ -41,17 +41,14 @@ header nav ul li {
 	/* Espaciado entre enlaces */
 }
 
-header nav ul li a:hover {
-	color: #1E86D4;
-}
-
-header nav ul li .azul {
-	color: #1E86D4;
-}
-
 header nav ul li a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover,
+header nav ul li .azul {
+    color: #1E86D4;
 }
 
 .encabezado {

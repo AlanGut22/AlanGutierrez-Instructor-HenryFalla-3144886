@@ -6,6 +6,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 4px solid #1E86D4;
+	border-bottom: 4px solid #1293D4;
 }
 
 header p {
@@ -25,7 +26,7 @@ header p {
 }
 
 header p span {
-	color: #1E86D4;
+	color: #1293D4;
 }
 
 header nav ul {
@@ -41,17 +42,14 @@ header nav ul li {
 	/* Espaciado entre enlaces */
 }
 
-header nav ul li a:hover {
-	color: #1E86D4;
-}
-
-header nav ul li .azul {
-	color: #1E86D4;
-}
-
 header nav ul li a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover,
+header nav ul li .azul {
+    color: #1E86D4;
 }
 
 .suscribete {
@@ -83,7 +81,59 @@ header nav ul li a {
 	width: 100px;
 }
 
+.principal {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 45px;
+	margin: 20px 120px 10px;
+	max-width: 1200px;
+}
+
+.nosotros {
+	width: 70%;
+}
+
+.nosotros h2 {
+	padding: 0 7px 10px;
+}
+
+.parrafo1, .parrafo2 {
+	margin: 15px 6px;
+}
+
+.parrafo2 {
+	background-color: #35424A;
+	padding: 15px;
+	color: #ffffff;
+}
+
+.imagen{
+	margin: 6px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.que-hacemos {
+	width: 27%;
+	background-color: #35424A;
+	color: #ffffff;
+	padding: 30px 20px;
+}
+
+.que-hacemos .titulo {
+	font-weight: bold;
+}
+
+.que-hacemos .descripcion {
+	margin-top: 20px;
+}
+
 footer {
+	width: 100%;
 	background-color: #1293D4;
 	padding: 42px;
 	color: #ffffff;
